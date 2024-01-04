@@ -1,0 +1,133 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image:url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper-main{
+    width:1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    background-color: #91cee6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px black;
+    border :2px solid black;
+}
+
+.logo img{
+    width:200px;
+    height: auto;
+}
+
+.main-form{
+    background-color: #5dbadf;
+    padding: 30px;
+    margin-top: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.05);
+    border :2px solid black;
+}
+
+.main-form h2{
+    padding: 0 0 10px 0;
+}
+
+.Title{
+    padding: 0;
+    margin:0;
+    font-size:3.5rem;
+    font-family: Roboto-Bold;
+}
+
+.register-title{
+    font-size: 3rem;
+}
+
+.form-group{
+    height: fit-content;
+    margin-left: 14px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-family: Roboto;
+    column-gap: 20px;
+    width: 300px;
+}
+
+.form-group label{
+    width: 90%;
+    column-gap: 20px;
+    font-size: 1.6rem;
+    /* float: right; */
+}
+
+.form-group label .Forget_pass_btn{
+    font-size: 1.3rem;
+    /* float: right; */
+    margin-left: 80px;
+}
+
+.form-group input{
+    width: 90%;
+    height: 25px;
+    padding: 4px 4px 4px 8px;
+    border-radius: 8px;
+    border-width: 2.5px;
+    font-size: 1.4rem;
+}
+
+
+.checkbox input{
+    width:17px;
+    height: 17px;
+}
+
+.form-group button{
+    width: 90%;
+    height: 6vh;
+    font-size: 2rem;
+    font-family: Roboto;
+    background-color: #b2d6e4;
+    border-radius: 10px;
+}
+
+
+.Wrong-selection{
+    font-size: 1.6rem;
+}
+
+
+.Statement{
+    font-size: 1rem;
+}

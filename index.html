@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <section class="main-section wrapper-main">
+        <div class="logo">
+            <img src="img/Ajlogo.png" alt="Company-Logo">
+        </div>
+
+        <form method="post" class="main-form">
+            <h2 class="Title">SIGN IN</h2>
+            <div class="form-group">
+                <label for="text">E-mail Address</label>
+                <br>
+                <input type="email" id="email" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+                <label for="Password">Password
+                    <a class="Forget_pass_btn" href="reset.html">Forget Password ?</a>
+                </label>
+                <br>
+                <input type="password" id="Password" placeholder="Password">
+            </div>
+
+            <div class="form-group checkbox">
+                <input type="checkbox" name="remember me" id="Remember-me-btn">
+                <label for="Remember-me-btn">Remember Me</label>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">
+                    Login
+                </button>
+            </div>
+
+            <div class="Wrong-selection">
+                Don't have an account? <a href="register.html">Create One</a>
+            </div>
+        </form>
+    </section>
+    
+</body>
+</html>
